@@ -2,32 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+   /* background-color: #e8f5dc;*/
+
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+Tab {
+   color: white !important;
+   outline:none!important
+}
+ 
+Tab:active {
+   color: white !important;
+    
+}
+
+.text-green-aaa {
+   color: #758467 !important;
+   color:#737b4c !important;
+    
+
+
+}
+
+.bg-green-aaa {
+   background-color: #758467 !important;
+   background-color: #737b4c!important;
+   
+
+
+}
+
+.text-brown-aaa {
+    
+   color:#ac9148 !important;
+
+
+}
+
+.bg-brown-aaa {
+    
+   background-color:#ac9148 !important;
+
+
+}
+
+.text-green-bbb {
+   color: #344e41 !important;
+}
+
+.bg-green-bbb {
+   background-color: #344e41 !important;
+}
+
+.text-green-ccc {
+   color: #bab86c !important;
+}
+
+.bg-green-ccc {
+   background-color: #bab8 !important;
+}
+#react-aria8109920536{
+   background-color: #fff !important;
+}
+.kHxKDT  {
+   display: none!important;
+   
+}
+.kHxKDT:hover  {
+   display: none;
+   
 }
